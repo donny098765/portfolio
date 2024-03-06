@@ -1,0 +1,84 @@
+#page {
+    box-sizing: content-box;        /* Size is based off the content only. */
+    width: 1012px;
+    height: 782px;
+    margin: 0 auto;
+    border: .5px solid lightgrey;
+    margin-top: 1em;
+}
+
+#border {
+    border-image-slice:
+42 42 42 42;
+    border-image-width:
+42px 42px 42px 42px;
+    border-image-outset:
+0px 0px 0px 0px;
+    border-image-repeat:
+round round;
+    border-image-source:
+url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+    border-style:
+solid;
+    width: 966px;
+    height: 759px;
+    margin: 10px 5px 1px 20px;
+}
+
+#certificate {
+    width: 916px;
+    height: 690px;
+    background-color: beige;
+    background-image: url(../images/105817-yellow-star-pattern3a.jpg);
+    background-size: 125px;
+    margin: -40px 0 0 24px;
+}
+
+h1 {
+    font-family: 'dancing script', cursive;
+    font-size: 7em;
+    align-items: center;
+    margin-left: 2em;
+    padding-top: 66px;
+}
+
+
+header > h2 {
+    margin: -71px 0 0 9em;
+    font-size: 2em;
+}
+
+section > h2 {
+    line-height: 0px;
+    margin-left: 7em;
+    font-size: 2em;
+    padding: 51px 0 0 0;
+}
+
+section > p {
+    font-family: 'dancing script', cursive;
+    font-size: 5em;
+    margin: -16px 0 0 2em;
+}
+
+article {
+    width: 40%;
+}
+
+article > p {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 0 0 62px;
+}
+
+img {
+    width: 300px;
+    float: right;
+    clear: both;
+    margin: -168px 57px 0 0;
+}
+
+
+
+
+
